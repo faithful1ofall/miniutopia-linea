@@ -47,7 +47,7 @@ export const NFTProvider = ({ children }) => {
       setIsLoadingNFT(false);
 
       const provider = new ethers.providers.JsonRpcProvider(
-        `https://canto-testnet.plexnode.wtf`
+        `https://rpc.sepolia.linea.build`
       );
       const contract = fetchContract(provider);
 
