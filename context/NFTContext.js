@@ -11,7 +11,7 @@ const fetchContract = (signerOrProvider) =>
   new ethers.Contract(MarketAddress, MarketAddressABI, signerOrProvider);
 
 export const NFTProvider = ({ children }) => {
-  const nftCurrency = "TCANTO";
+  const nftCurrency = "LINEAETH";
   const [currentAccount, setCurrentAccount] = useState("");
   const [isLoadingNFT, setIsLoadingNFT] = useState(false);
   const [imageURL, setImageURL] = useState("");
